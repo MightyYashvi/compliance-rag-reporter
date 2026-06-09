@@ -1,0 +1,168 @@
+Singapore Workplace Site Safety Inspection Guideline (SWSSIG)
+Edition 2025
+Issued by the Workplace Safety and Health (WSH) Council, Ministry of Manpower
+Effective Date: 1 February 2025
+
+---
+
+Section 1.0 — Objective and Legal Basis
+
+This guideline establishes minimum workplace inspection standards, hazard identification protocols, and reporting obligations for active construction, infrastructure maintenance, and redevelopment sites in Singapore. It is issued under the Workplace Safety and Health Act (Cap 354A) and supplements the WSH (Construction) Regulations.
+
+All site safety supervisors, construction safety officers, and appointed site safety inspectors must conduct site inspections in accordance with this guideline. Non-compliance may result in issuance of improvement notices, prohibition notices, financial penalties, and suspension of site safety certificates.
+
+Section 1.1 — Scope of Application
+
+This guideline applies to all persons managing, supervising, or carrying out inspections on sites where construction, demolition, structural alteration, installation, maintenance, and repair activities are conducted with a project value exceeding SGD 1 million, or with more than 10 workers present on site concurrently.
+
+---
+
+Section 2.0 — Personal Protective Equipment (PPE) Requirements
+
+Section 2.1 — Mandatory PPE for Inspection Personnel
+
+All personnel entering active inspection zones, including site safety inspectors, engineers, owners' representatives, and regulatory officers, must wear the following minimum PPE at all times:
+- Safety helmet conforming to SS 98:2020 or equivalent international standard
+- High-visibility reflective safety vest with a minimum of Class 2 retroreflective material
+- Safety footwear with steel toe-cap and anti-penetration sole conforming to SS 513:2014
+- Safety glasses or goggles in areas with overhead work, grinding, or dust generation
+- Gloves when handling structural materials, cables, or inspecting confined spaces
+
+Additional PPE requirements apply in specialised zones:
+- Fall arrest harness with appropriate anchorage where inspection is conducted at heights above 3 metres
+- Respiratory protection (minimum P2 filtering face piece) in dusty environments or where silica-bearing materials are disturbed
+- Hearing protection in areas with continuous noise exposure above 85 dB(A)
+
+Section 2.2 — PPE Inspection and Replacement
+
+Site safety inspectors must verify that their PPE is in serviceable condition before each inspection. Helmets must be replaced after any significant impact, if the shell exhibits cracking or distortion, or upon reaching the manufacturer's maximum service life. Harnesses must be removed from service immediately after any arrest event. The site must maintain a PPE log recording issuance, inspection dates, and replacement of all safety-critical PPE items.
+
+---
+
+Section 3.0 — Surface and Structural Hazards
+
+Section 3.1 — Unsafe Surface Conditions
+
+All walking and working surfaces on site must be assessed during each inspection. Wet, unstable, or obstructed surfaces that present a slip, trip, or fall risk must be identified as safety hazards and documented immediately. Conditions requiring mandatory hazard recording include:
+
+- Standing water, mud, or wet slurry on pedestrian walkways, access ramps, or working platforms
+- Loose aggregate, rebars, formwork remnants, or demolition debris on traffic routes
+- Uneven or degraded surfaces with height differences exceeding 10 mm over a 1-metre run
+- Ground subsidence or soft spots beneath working platforms or scaffolding base plates
+- Temporary covers over excavations, openings, or service trenches that are displaced, damaged, or insufficiently secured
+- Ice accumulation in temperature-controlled environments such as cold storage construction
+
+Section 3.2 — Working at Heights Hazards
+
+The following height-related hazardous conditions must be identified and documented:
+- Absence or inadequacy of edge protection (guardrails, toe boards) at floor openings, slab edges, or rooftop work areas
+- Scaffolding with missing or damaged planks, inadequate ties, or incomplete guardrail systems
+- Ladders that are not secured, are placed on unstable bases, or extend less than 1 metre above the landing point
+- Crane and hoist access platforms without interlocked gates
+- Skylights or roof openings without covers or protective barriers
+
+Section 3.3 — Excavation and Confined Space Hazards
+
+Inspectors must assess excavation zones and confined spaces for the following risk conditions:
+- Excavations deeper than 1.5 metres without adequate shoring, battering, or benching
+- Evidence of ground water ingress, seepage, or waterlogging in excavation zones
+- Absence of safe means of entry and egress for excavations deeper than 1.2 metres
+- Atmospheric hazards in confined spaces (oxygen deficiency, flammable gas, toxic vapours)
+
+---
+
+Section 4.0 — Hazard Reporting Obligations
+
+Section 4.1 — Mandatory Hazard Recording
+
+All identified safety hazards, regardless of severity classification, shall be recorded in the Hazard Observation Log before the inspector departs the site. The log entry must contain:
+- Date, time, and location of the observation
+- Description of the hazard condition
+- Photographic evidence (minimum one photograph per finding)
+- Preliminary severity classification (Caution, Warning, or Critical — see Section 5.0)
+- Recommended immediate corrective action
+- Name and identity of the person responsible for corrective action
+- Proposed completion date
+
+Verbal notification to the immediate site supervisor at the time of observation is required for all Warning and Critical hazards.
+
+Section 4.2 — Digital Reporting System
+
+Where the site is required to maintain a WSH Digital Safety Management System (DSMS), all hazard observations must be entered into the DSMS within 4 hours of the inspection. Paper-based systems must be updated before the end of the working day in which the inspection was conducted.
+
+---
+
+Section 5.0 — Incident Severity Classification
+
+Section 5.1 — Severity Levels
+
+All identified safety hazards must be classified according to the following severity matrix:
+
+Caution — Level 1:
+Conditions that present a low probability of injury or minor discomfort. No immediate personnel risk. Housekeeping, minor PPE non-compliance, or low-risk trip hazards fall in this category. Corrective action required within 7 working days.
+
+Warning — Level 2:
+Conditions presenting a moderate probability of injury, including wet walking surfaces, missing toe boards at heights, or inadequate lighting in access routes. Corrective action required within 24 hours. Verbal notification to site supervisor mandatory. Written notification required if not rectified within the prescribed period.
+
+Critical — Level 3:
+Hazards presenting an immediate and significant risk of serious bodily injury or death. These include but are not limited to: inadequate edge protection at heights above 3 metres, unshored excavation greater than 2 metres, unprotected overhead work without exclusion zones, and exposed electrical conductors. Critical hazards require same-day escalation procedures. Work in the affected zone must cease immediately.
+
+Section 5.2 — Same-Day Escalation Procedures for Critical Hazards
+
+Upon identifying a Critical hazard, the site safety inspector must:
+1. Immediately verbally instruct the site supervisor to halt all work within the hazard zone
+2. Arrange for physical barriers and warning signage to be deployed within 30 minutes
+3. Submit a Preliminary Hazard Report (PHR) via the DSMS or in writing within 2 hours
+4. Notify the site's appointed Construction Safety Officer (CSO) within 1 hour
+5. Ensure written confirmation from the CSO that corrective actions have been initiated before work resumes in the affected zone
+
+If the CSO is not contactable within 2 hours, the inspector must notify the Ministry of Manpower (MOM) WSH duty officer.
+
+Section 5.3 — Repeat Hazard Observations
+
+Where the same or substantially similar hazard condition is identified at the same location during two or more consecutive inspections without evidence of corrective action having been taken, the site safety inspector must escalate directly to the project safety manager or principal contractor. Repeated failure to address identified hazards may result in the inspector filing a mandatory non-compliance report with the WSH Council.
+
+---
+
+Section 6.0 — Site Documentation Requirements
+
+Section 6.1 — Mandatory Site Inspection Records
+
+Every formal site safety inspection must produce a documented Site Inspection Report containing the following minimum information:
+- Timestamp: Date and time inspection commenced and concluded
+- Inspector identifier: Full name, NRIC or FIN, and valid WSH Safety Officer registration number
+- Site location: Project address, site licence number, and specific area(s) inspected
+- Hazard summary: Itemised list of all identified hazards with severity classifications and photographic references
+- Recommended corrective actions: Specific, actionable steps for each finding with responsible party and target date
+- Inspection outcome: Overall site safety classification (Satisfactory, Requires Attention, or Unsafe for Occupation)
+
+Section 6.2 — Positive Observations
+
+In addition to hazard findings, the Site Inspection Report should note areas of good practice, compliance with PPE requirements, orderly housekeeping, and effective implementation of previously recommended corrective actions. Positive observations contribute to the site's WSH performance record and may be considered in contractor performance assessments.
+
+Section 6.3 — Record Retention
+
+All Site Inspection Reports must be retained on site for the duration of the project and for a minimum of 3 years following practical completion. Records must be produced for inspection by WSH Council officers, MOM officers, or other authorised regulatory personnel within 24 hours of a request.
+
+---
+
+Section 7.0 — Emergency Response Readiness
+
+Section 7.1 — Emergency Equipment Inspection
+
+During each routine inspection, the inspector must verify that the following emergency preparedness requirements are met:
+- First aid kits are stocked, accessible, and have not exceeded their expiry dates
+- Emergency contact numbers are prominently displayed at site entrances and welfare facilities
+- At least one trained first aider is present on site during all working hours
+- Emergency evacuation routes are clear of obstructions and signage is legible
+- Fire extinguishers are mounted, accessible, charged (pressure gauge in green zone), and within their service dates
+
+Section 7.2 — Evacuation Drill Compliance
+
+Sites with more than 30 workers must conduct emergency evacuation drills at intervals not exceeding 6 months. The inspector must verify that drill records are available and that the most recent drill was attended by no less than 80 percent of workers then on site. Sites unable to produce drill records must be issued a Corrective Action Notice regardless of other inspection outcomes.
+
+---
+
+Section 8.0 — Engagement with Workers
+
+Inspectors are strongly encouraged to engage directly with workers during inspections to identify unreported hazards, understand on-the-ground conditions, and assess the effectiveness of the site's safety culture. Worker observations must be treated with confidentiality unless the worker consents to attribution. Inspectors must not take actions that could be construed as penalising workers for raising safety concerns, and must report to the CSO if any evidence of intimidation or suppression of safety reporting is observed.

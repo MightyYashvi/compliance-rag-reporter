@@ -1,0 +1,167 @@
+Singapore Structural Corrosion Management Manual (SSCMM)
+Version 2025
+Published by the Structural Integrity and Asset Management Division (SIAMD), LTA / BCA
+Effective Date: 1 January 2025
+
+---
+
+Section 1.0 — Corrosion Identification and Classification
+
+Section 1.1 — Purpose and Scope
+
+This manual establishes a standardised framework for identifying, classifying, documenting, and managing corrosion in structural steel, reinforced concrete, and composite infrastructure elements in Singapore. It applies to bridges, elevated structures, retaining walls, tunnels, utility corridors, and structural facades under the jurisdiction of the Land Transport Authority (LTA) and the Building and Construction Authority (BCA).
+
+Corrosion management is a critical element of infrastructure asset management in Singapore's tropical maritime climate, where elevated ambient humidity, salt-laden coastal air, frequent rainfall events, and temperature cycling create conditions highly conducive to accelerated electrochemical degradation of structural materials.
+
+Section 1.2 — Definitions
+
+Corrosion: The chemical or electrochemical reaction between a structural material and its environment resulting in degradation of the material's mechanical properties, cross-sectional area, or surface integrity.
+
+Active Corrosion: Corrosion in progress, evidenced by the presence of fresh rust product, active pitting, or measurable section loss.
+
+Passive Corrosion: Corrosion that has been chemically arrested, typically by protective coatings, cathodic protection systems, or natural passivation, where the surface exhibits staining but no active material degradation.
+
+Section Loss: The reduction in cross-sectional area of a structural member due to corrosion-induced material removal, expressed as a percentage of the original design cross-section.
+
+Section 1.3 — Visual Indicators of Corrosion
+
+Surface rust, coating deterioration, and metal discolouration shall be classified as corrosion indicators and must trigger formal assessment under this manual. Additional visual indicators requiring documentation include:
+
+- Rust staining or rust bleeding from surface cracks, joints, or pores
+- Bubbling, blistering, or peeling of protective coatings
+- Pitting, cratering, or roughening of previously smooth metal surfaces
+- Delamination of concrete cover exposing reinforcing steel
+- White, orange, or brown efflorescence on concrete surfaces adjacent to steel elements
+- Section loss visible as thinning, necking, or perforation of metal members
+- Scale or corrosion product accumulation at structural connections, bolt holes, and bearing surfaces
+
+---
+
+Section 2.0 — Severity Levels and Assessment Criteria
+
+Section 2.1 — Light Corrosion
+
+Definition: Surface-level oxidation without measurable material weakening. Characterised by thin uniform rust film or light surface staining. Protective coating may exhibit minor chalking or fading without complete failure. No evidence of pitting deeper than 0.5 mm. No measurable section loss.
+
+Inspection Interval: Annual structural inspection with condition assessment at each scheduled maintenance visit.
+
+Corrective Action: Surface preparation and recoating within 12 months. No structural engineering assessment required unless coating failure is extensive.
+
+Monitoring Requirement: Photographic record at each inspection to document progression.
+
+Section 2.2 — Moderate Corrosion
+
+Definition: Visible material degradation requiring scheduled remediation. Characterised by active pitting with depths in the range of 0.5–2.0 mm, coating failure exposing base metal over more than 10 percent of the surface, localised section loss of 2–10 percent of the original design section in metallic members, or rust-induced concrete cover spalling over reinforcing steel. Structural performance may be marginally reduced but immediate load-carrying capacity is not critically impaired.
+
+Inspection Interval: Inspection frequency increased to every 6 months. Additional inspections required following severe weather events, flooding, or known chemical exposure incidents.
+
+Corrective Action: Formal structural engineering assessment required within 60 days. Remediation works must be completed within 180 days of the engineering assessment unless otherwise directed by a Professional Engineer.
+
+Monitoring Requirement: Corrosion depth measurements using ultrasonic thickness testing or pit gauge at minimum 5 measurement points per identified corrosion zone. Monitoring data to be submitted to the asset management system quarterly.
+
+Section 2.3 — Severe Corrosion
+
+Definition: Structural weakening or active material fragmentation. Characterised by deep pitting with individual pit depths exceeding 2.0 mm, section loss exceeding 10 percent of the original design cross-section, through-perforation of metal elements, reinforcement bar section reduction exceeding 15 percent, or extensive concrete cover loss exposing multi-bar lengths of reinforcement. Structural adequacy is in question and load redistribution effects may be significant.
+
+Inspection Interval: Continuous monitoring required until remediation is complete. Physical access restriction to the affected structure or element must be implemented where public safety may be at risk.
+
+Corrective Action: Immediate engineering escalation required. A Corrosion Emergency Assessment Report must be submitted by a Professional Engineer within 7 days of initial classification as severe. All non-essential loads on the affected element must be removed immediately.
+
+Monitoring Requirement: Automated sensor deployment strongly recommended. Manual readings at minimum 48-hour intervals until the Professional Engineer determines that the corrosion rate is stable.
+
+---
+
+Section 3.0 — Environmental Exposure Classifications
+
+Section 3.1 — Standard Inland Exposure (Class I)
+
+Structures located in inland urban or semi-urban environments not subject to marine influence, chemical exposure, or industrial pollutant deposition. Standard inspection and maintenance intervals apply as specified in Section 2.0.
+
+Section 3.2 — Coastal and Marine Exposure (Class II)
+
+Corrosion observed near water systems, coastal areas, or marine environments shall receive elevated inspection priority due to the significantly accelerated corrosion rates associated with chloride ion deposition. Structures within 1 kilometre of the shoreline, within tidal range, or subject to sea spray exposure are classified as Class II.
+
+For Class II structures:
+- Inspection intervals are halved compared to the standard intervals in Section 2.0
+- All severity thresholds in Section 2.1–2.3 are reduced by 25 percent
+- Cathodic protection systems (impressed current or sacrificial anode) must be assessed for continued effectiveness during every inspection
+- Chloride content testing of concrete cover must be conducted biennially for any Class II structure with a design service life exceeding 50 years
+
+Section 3.3 — Chemically Aggressive Exposure (Class III)
+
+Structures in environments with identified chemical exposure risk including proximity to industrial processes, acid or alkali vapour emissions, concentrated salt spray from industrial cooling towers, or contaminated groundwater contact. A Chemical Exposure Assessment (CEA) must be conducted before adopting standard inspection intervals, and a structure-specific inspection and monitoring plan must be prepared by a Professional Engineer.
+
+Section 3.4 — High Humidity and Tropical Exposure
+
+Given Singapore's prevailing tropical climate with annual relative humidity averaging 84 percent and annual rainfall exceeding 2,400 mm, all structures located in exposed conditions without active climate control are considered subject to elevated corrosion risk from continuous moisture cycling. Uncoated steel in exposed conditions will develop active corrosion within months. Protective coating systems must be maintained in accordance with the manufacturer's recommended reapplication intervals, and no interval between coating inspections should exceed 24 months.
+
+---
+
+Section 4.0 — Documentation Requirements
+
+Section 4.1 — Mandatory Corrosion Inspection Records
+
+Corrosion findings must be formally documented with the following minimum information:
+
+1. Estimated affected area: Total surface area affected expressed in square metres, including both the actively corroding zone and the immediately adjacent at-risk area.
+
+2. Environmental conditions: Temperature, relative humidity, evidence of water contact or runoff, proximity to known chemical sources, and any unusual exposure events since the previous inspection.
+
+3. Structural impact estimate: A qualitative assessment of current and anticipated impact on structural performance, classified as Negligible, Minor, Moderate, Significant, or Critical in accordance with the SSCMM Structural Impact Rating Guide.
+
+4. Photographic evidence: A minimum of three photographs per corrosion zone — one context photograph, one close-up of the most severely affected area, and one with a measurement reference in frame.
+
+5. Measurement data: Where applicable, coating thickness measurements, pit depth measurements, and ultrasonic thickness gauge readings for metallic members.
+
+Section 4.2 — Trending and Progression Analysis
+
+Where corrosion is identified at the same location during consecutive inspections, the inspector must compare current measurements with previous records and comment on whether the rate of deterioration is accelerating, stable, or reducing. Where an acceleration in deterioration rate is detected, the finding must be escalated to the next severity classification regardless of absolute measurement values.
+
+---
+
+Section 5.0 — Immediate Action Criteria and Emergency Procedures
+
+Section 5.1 — Emergency Escalation Triggers
+
+The following conditions require immediate engineering escalation without waiting for the standard inspection reporting cycle:
+
+- Severe corrosion, as defined in Section 2.3, identified on any primary load-bearing structural member
+- Any sudden visible change in structural geometry (deflection, rotation, cracking) adjacent to a known corrosion zone
+- Discovery of corrosion affecting post-tensioning tendons, prestressing wires, or structural anchor bolts
+- Detection of corrosion-induced section perforation in any primary structural member
+- Corrosion assessment revealing greater than 20 percent section loss in any member
+
+Section 5.2 — Immediate Structural Protection Measures
+
+Pending engineering assessment, the following interim protective measures must be implemented when severe corrosion is identified:
+- Physical exclusion zone to be established within a radius of at least 1.5 times the structural element height (minimum 3 metres) to protect against falling material
+- Non-essential loads to be removed from the affected element immediately
+- Temporary shoring or propping to be installed under the direction of a Professional Engineer if structural adequacy cannot be confirmed
+- Corrosion-inhibiting compound to be applied to exposed metal surfaces to arrest active corrosion, subject to Professional Engineer approval
+
+Section 5.3 — Regulatory Notification
+
+Severe corrosion affecting load-bearing structures requires immediate engineering escalation and formal notification to the SIAMD within 48 hours using Form SIAMD-CE01. Failure to notify within the prescribed timeframe is a breach of the Structural Maintenance and Assessment Regulations and may result in financial penalties of up to SGD 75,000 per offence and mandatory review of the asset owner's maintenance programme.
+
+---
+
+Section 6.0 — Remediation Guidance
+
+Section 6.1 — Metallic Structures
+
+Approved corrosion remediation methods for structural steel include:
+- Abrasive blasting to Sa 2.5 standard followed by application of a zinc-rich primer and approved topcoat system
+- Thermal spray zinc or aluminium coating for heavily corroded sections requiring long-term protection
+- Structural plate bonding or welded reinforcement plates under Professional Engineer design for elements exhibiting section loss
+
+Section 6.2 — Reinforced Concrete Structures
+
+For concrete elements where reinforcement corrosion has been identified:
+- Localised concrete repair using polymer-modified cementitious mortars to AS 1379 or approved equivalent
+- Reinforcement cleaning and rust conversion treatment before concrete reinstatement
+- Application of corrosion inhibitor to passivate exposed and adjacent reinforcement
+- Cathodic protection system installation for structures in aggressive environments
+
+Section 6.3 — Post-Remediation Inspection
+
+All remediated corrosion zones must be re-inspected at 30 days, 6 months, and 12 months following completion of works. The first post-remediation inspection must be conducted by a Professional Engineer. Subsequent inspections may be conducted by a qualified inspector but findings must be reviewed by a Professional Engineer annually.
