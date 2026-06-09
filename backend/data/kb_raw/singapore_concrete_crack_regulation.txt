@@ -1,0 +1,182 @@
+Singapore Concrete Crack Assessment Regulation (SCCAR)
+Revision 2025
+Published by the Structural Safety and Integrity Division (SSID), BCA
+Effective Date: 1 March 2025
+
+---
+
+Section 1.0 — Scope and Application
+
+This regulation defines mandatory inspection, classification, and remediation requirements for visible cracking in concrete infrastructure, structural elements, retaining walls, pavements, and building facades on active construction, maintenance, and redevelopment sites in Singapore. It applies to all registered structural engineers, geotechnical engineers, resident technical officers, and site supervisors managing reinforced concrete structures under BCA-licensed projects.
+
+Compliance with this regulation is required as a condition of structural plan approval, temporary occupation permit (TOP), and certificate of statutory completion (CSC) issuance. Non-compliance may result in stop-work orders, structural review requirements, and mandatory investigation proceedings.
+
+Section 1.1 — Regulatory Basis
+
+This regulation is issued pursuant to the Building Control Act (Cap 29) and supplements the Code of Practice on Structural Design of Concrete Structures (CP 65). Where conflicts arise between this regulation and CP 65, the more stringent requirement applies.
+
+Section 1.2 — Key Definitions
+
+Crack Width: The maximum opening across a crack measured perpendicular to the crack plane, expressed in millimetres.
+
+Active Crack: A crack exhibiting measurable change in width, length, or depth over time, indicating ongoing structural movement.
+
+Dormant Crack: A crack that has stabilised and shows no measurable change over a monitoring period of not less than 30 days.
+
+Structural Crack: Any crack that penetrates into the structural core of a concrete element or that is accompanied by spalling, delamination, or visible reinforcement exposure.
+
+Non-Structural Crack: Surface crazing or plastic shrinkage cracking with a depth not exceeding 5 mm and width not exceeding 0.3 mm, not associated with structural loads.
+
+---
+
+Section 2.0 — Crack Classification and Hazard Assessment
+
+Section 2.1 — Crack Width Thresholds
+
+Concrete cracks are classified according to their maximum measured width as follows:
+
+Class A — Hairline (width less than 0.3 mm):
+Non-structural in most circumstances. Cosmetic monitoring only. No immediate engineering action required. Record and re-assess at next scheduled inspection. Hairline cracks in water-retaining structures or marine environments require upgraded monitoring due to accelerated chloride ingress risk.
+
+Class B — Moderate (width 0.3 mm to 2.0 mm):
+Potentially structural depending on orientation, location, and associated deformation. Engineering assessment required. Cracks exceeding 0.5 mm in width in post-tensioned structures require immediate notification to the Resident Engineer.
+
+Class C — Significant (width greater than 2.0 mm):
+Concrete cracks exceeding 2 millimetres in width must undergo formal structural assessment by a registered Professional Engineer (Structural) within 72 hours of discovery. Monitoring points (demountable mechanical gauges or equivalent) must be installed within 24 hours. Construction loading near the affected element must be suspended pending engineering clearance.
+
+Class D — Critical (width greater than 5.0 mm):
+Cracks wider than 5 millimetres require emergency engineering review within 48 hours. The affected structural element must be considered potentially compromised and the surrounding area must be secured. The site engineer must immediately notify the BCA Structural Safety Hotline. No remediation works may commence until a Professional Engineer has submitted a Structural Emergency Report (Form BCA-SER01).
+
+Section 2.2 — Hazard Classification by Crack Orientation
+
+Beyond width, crack orientation is a primary indicator of structural cause and risk level:
+
+Diagonal Cracking: Diagonal fractures appearing at angles between 30 and 60 degrees, particularly those occurring near the supports or haunches of beams, slabs, and columns, shall be categorised as high-risk findings. Diagonal cracking near load-bearing structures is indicative of shear failure and may precede sudden brittle collapse without significant further deformation. Immediate structural assessment is mandatory regardless of measured crack width.
+
+Vertical Cracking in Columns: Longitudinal splitting cracks running parallel to the axis of compression in columns indicate crushing or buckling failure modes. Any vertical crack in a column element wider than 0.5 mm requires emergency structural review.
+
+Horizontal Cracking in Retaining Walls: Horizontal cracks or fissures in retaining walls or basement walls may indicate excessive bending or overturning stress. Cracks accompanied by visible wall displacement or leaning require immediate geotechnical and structural assessment.
+
+Map Cracking and Crazing: A pattern of intersecting shallow fissures covering a surface in a polygonal mesh pattern, typically associated with alkali-silica reaction (ASR), drying shrinkage, or thermal cycling. Requires chemical testing and long-term monitoring.
+
+Section 2.3 — Moisture Intrusion and Environmental Impact
+
+Cracks accompanied by moisture penetration, seepage, efflorescence (white mineral deposits), or active water leakage must be documented with environmental impact notes. Specifically, the inspector must record:
+- Estimated rate of water ingress (none, seeping, flowing, gushing)
+- Whether the seepage is clear, coloured, or carries suspended materials
+- Evidence of reinforcement staining (rust-coloured staining adjacent to the crack)
+- Potential paths for water migration to adjacent spaces or ground
+
+Water-bearing cracks in below-grade structures or in elements located above occupied spaces constitute elevated-risk findings regardless of crack width classification.
+
+---
+
+Section 3.0 — Inspection Documentation and Measurement
+
+Section 3.1 — Required Crack Measurements
+
+All Class B and above crack findings must be formally documented. Measurements must include:
+- Maximum crack width at the widest point, measured with a calibrated crack width gauge or comparator card
+- Estimated visible crack length in millimetres
+- Crack depth assessment (surface measurement or sounding where accessible)
+- Location reference on a dimensioned site plan or drawing with unique crack identifier
+- Crack orientation in degrees from vertical
+- Photographic evidence as specified in Section 3.3
+
+Section 3.2 — Crack Monitoring Requirements
+
+Where a crack is classified as active, monitoring equipment must be installed within 48 hours of initial observation. Monitoring data must be recorded at the following minimum intervals:
+- Daily for the first 14 days following installation
+- Weekly thereafter, until the crack is confirmed dormant
+- Following any significant construction activity or rainfall event exceeding 50 mm in 24 hours
+
+Monitoring data must be submitted to the Resident Engineer weekly. If crack width or length increases by more than 0.5 mm between any two consecutive readings, the finding must be re-classified to the next severity level and the escalation procedure in Section 5.0 initiated.
+
+Section 3.3 — Photographic Evidence Requirements
+
+Photographic documentation for crack findings must include:
+- A context photograph showing the location of the crack within the structure with a visible site reference marker
+- A close-up photograph with a graduated scale (crack width comparator card or steel ruler) visible within the frame
+- Where possible, a photograph from the same position as any previous inspection to facilitate visual comparison
+
+All photographs must be geo-tagged or accompanied by documented grid coordinates. Images must be submitted to the Structural Inspection Database (SID) within 24 hours of the inspection.
+
+---
+
+Section 4.0 — Load-Bearing Structure Protocols
+
+Section 4.1 — Identification of Load-Bearing Elements
+
+For the purposes of this regulation, load-bearing structural elements include:
+- All columns, piers, and pilasters
+- All primary beams and girders (transfer beams and post-tensioned beams require elevated vigilance)
+- Floor slabs designed to carry imposed loads
+- Load-bearing masonry walls
+- Foundation elements including pile caps, rafts, and spread footings
+- Retaining structures subject to active earth pressures
+
+Any crack in these elements must be reported immediately to the Resident Engineer regardless of width classification.
+
+Section 4.2 — Enhanced Assessment for Critical Elements
+
+The following categories of load-bearing elements require enhanced crack assessment protocols:
+- Transfer structures carrying loads from multiple above elements
+- Post-tensioned slabs or beams (any tendon anchorage zone cracking requires immediate emergency response)
+- Prestressed concrete elements
+- Structures within 30 metres of excavation or tunnelling works
+- Elements within tidal or marine exposure zones
+
+For these elements, crack width thresholds are halved compared to the standard classification table in Section 2.1.
+
+---
+
+Section 5.0 — Escalation Criteria and Regulatory Notifications
+
+Section 5.1 — Escalation Triggers
+
+The following conditions require immediate escalation to the Structural Safety and Integrity Division (SSID):
+- Any Class D crack (width greater than 5 mm)
+- Diagonal cracking in any load-bearing element regardless of width
+- Any crack exhibiting a width increase of more than 1.0 mm within a 24-hour period
+- Cracking accompanied by audible sounds of structural distress
+- Cracking accompanied by spalling, delamination, or reinforcement exposure
+- Any crack in a post-tensioned or prestressed element at or near a tendon anchorage
+
+Escalation requires submission of Form BCA-SER01 within 48 hours and verbal notification to the SSID duty officer within 2 hours of discovery.
+
+Section 5.2 — Penalties for Non-Compliance
+
+Failure to report a Class D crack or a crack in a load-bearing element within the prescribed timeframe is an offence under the Building Control Act and may result in:
+- Mandatory stop-work order for the entire site
+- Financial penalties of up to SGD 100,000 per offence
+- Suspension or cancellation of the site professional's registration
+- Criminal prosecution in cases of deliberate concealment
+
+Section 5.3 — Remediation Requirements
+
+Crack remediation must be designed and supervised by a registered Professional Engineer. Approved remediation techniques include:
+- Epoxy injection for structural cracks in dry conditions
+- Polyurethane injection for water-bearing cracks
+- Routing and sealing for non-structural surface cracks
+- Carbon fibre reinforcement wrapping where structural strengthening is required
+- Partial or full element replacement where structural integrity cannot be restored by injection
+
+All remediated cracks must be re-inspected at 30 days and 90 days following completion of works. Remediation completion must be certified by the supervising Professional Engineer.
+
+---
+
+Section 6.0 — Special Conditions
+
+Section 6.1 — Aggressive Environments
+
+Structures located in the following environments are subject to enhanced monitoring and reduced crack width tolerance thresholds:
+- Within 1 kilometre of the coastline (marine chloride exposure)
+- In proximity to industrial facilities with acid or alkali emissions
+- In areas of known high ground-water sulphate content
+- Exposed to cyclic wetting and drying
+
+In aggressive environments, the width threshold for mandatory structural assessment (Class C) is reduced to 1.5 mm rather than 2.0 mm as specified in Section 2.1.
+
+Section 6.2 — Post-Seismic and Post-Impact Assessment
+
+Following any seismic event of Modified Mercalli Intensity IV or above, or following any vehicular or construction equipment impact affecting a concrete structure, a mandatory crack survey must be completed within 24 hours. All crack findings from such a survey must be reported to the SSID regardless of crack width classification.

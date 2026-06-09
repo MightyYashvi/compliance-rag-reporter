@@ -1,0 +1,169 @@
+Singapore Environmental Water Leakage Compliance Protocol (SEWLCP)
+2025 Edition
+Published by the Environmental Health and Infrastructure Safety Office (EHISO)
+Effective Date: 1 January 2025
+
+---
+
+Section 1.0 — Purpose and Regulatory Context
+
+This protocol establishes mandatory reporting, containment, and remediation procedures for water leakage incidents affecting public infrastructure, underground utilities, and construction site drainage systems in Singapore. It is issued under the Environmental Protection and Management Act (Cap 94A) and the Public Utilities Act (Cap 261), and is consistent with the National Water Agency's (PUB) requirements for water loss management and environmental protection.
+
+Uncontrolled water leakage from construction sites, utility corridors, and infrastructure systems poses significant risks including: ground instability and subsidence, contamination of soil and groundwater, flooding of adjacent properties, disruption to public utilities, and damage to heritage or sensitive ecosystems. All operators, site licensees, and asset owners are required to implement proactive leakage detection, timely reporting, and effective containment.
+
+Section 1.1 — Scope
+
+This protocol applies to:
+- All active construction and redevelopment sites in Singapore
+- Underground utility tunnels, service corridors, and sewerage infrastructure
+- Road, bridge, and tunnel drainage systems managed by public authorities
+- Building basement and subterranean drainage and waterproofing systems
+- Sites located within the catchment protection zones as designated by PUB
+
+Section 1.2 — Key Definitions
+
+Leakage Incident: Any uncontrolled release of water, groundwater, process water, or chemical-bearing water from a pipe, joint, seal, structural wall, or drainage component where the release was not intended as part of normal operations.
+
+Abnormal Discharge: Any discharge from a drainage outlet that exceeds the expected flow rate by more than 30 percent under non-rainfall conditions, or that exhibits unexpected colouration, turbidity, or chemical characteristics.
+
+High-Risk Leakage: Any leakage incident affecting electrical infrastructure, pedestrian pathways, traffic surfaces, or any area where water accumulation creates a risk of injury, asset damage, or environmental harm.
+
+---
+
+Section 2.0 — Leakage Identification and Assessment
+
+Section 2.1 — Visual Leakage Indicators
+
+Inspectors and site personnel must monitor for and record the following leakage indicators:
+
+Active Seepage: Continuous moisture emergence or dripping from structural joints, wall surfaces, pipe penetrations, or drainage system components where moisture was not present during the previous inspection.
+
+Standing Water Accumulation: Ponding of water in areas where drainage should prevent accumulation, particularly in basement levels, service tunnels, pedestrian underpasses, or utility vaults. Standing water accumulation exceeding 50 mm depth must be treated as a reportable leakage incident.
+
+Abnormal Drainage Discharge: Visible flow from drainage outlets during dry weather (no rainfall in the preceding 12 hours) must be recorded during inspections. Dry weather flow that was absent in previous inspections indicates a new leakage pathway and must be investigated.
+
+Wet Staining and Efflorescence: Persistent moisture staining on structural walls or ceilings, or the development of white mineral deposits (efflorescence) on concrete or masonry surfaces, are indicative of ongoing moisture migration and require investigation to identify the source.
+
+Ground Subsidence and Heave: Settlement, cracking, or upward movement of paved surfaces adjacent to known pipe routes may indicate underground leakage causing soil erosion or hydraulic pressure build-up. Ground movement findings must trigger an immediate investigation for associated leakage.
+
+Section 2.2 — Flow Severity Classification
+
+Leakage incidents must be classified by estimated flow severity as follows:
+
+Seeping (Class 1): Moisture emergence with no discrete flow. Rate estimated at less than 0.5 litres per minute. No visible stream or running water.
+
+Minor Flow (Class 2): Discrete but low-volume flow. Rate estimated at 0.5–5.0 litres per minute. Visible stream but no significant accumulation in a well-maintained drainage system.
+
+Moderate Flow (Class 3): Significant flow requiring active management. Rate estimated at 5.0–50 litres per minute. Risk of accumulation in drainage systems not designed for the additional load.
+
+Major Flow (Class 4): High-volume leakage with rate exceeding 50 litres per minute. Likely to overwhelm drainage capacity, cause rapid accumulation, or create immediate safety and environmental hazard.
+
+---
+
+Section 3.0 — Environmental and Safety Risk Assessment
+
+Section 3.1 — High-Risk Leakage Scenarios
+
+Leakage affecting electrical systems, pedestrian pathways, or public areas shall be classified as elevated-risk incidents requiring accelerated response under Section 5.0.
+
+Specific high-risk scenarios include:
+- Water contact with live electrical switchboards, cable junction boxes, or substation equipment
+- Leakage forming a continuous water path between an electrical installation and a grounded structure
+- Standing water accumulation of 30 mm or more on any pedestrian walkway, crossing, or public thoroughfare
+- Leakage causing saturation of road base material or sub-grade beneath trafficked surfaces
+- Water ingress into occupied building spaces including residential units, commercial premises, or public facilities
+- Leakage from chemical process pipework that may carry contaminated or hazardous fluids
+
+Where a high-risk leakage scenario is identified, the inspector must immediately verbally notify the site supervisor and initiate the emergency response procedure in Section 5.0, before completing any other documentation.
+
+Section 3.2 — Environmental Risk Assessment Criteria
+
+The environmental impact of a leakage incident must be assessed against the following criteria:
+
+Groundwater Contamination Risk: Assess whether the leaking medium carries chemical contaminants (pH, heavy metals, hydrocarbons, or biological agents) that could migrate into the groundwater table. Sites underlain by permeable soils within 3 metres of the water table require heightened vigilance.
+
+Surface Water Pollution Risk: Assess whether leakage discharge reaches, or has a credible pathway to, public drains, rivers, reservoirs, or coastal waters. Any leakage with confirmed or suspected discharge to a public waterway constitutes a reportable environmental incident under the Environmental Protection and Management Act.
+
+Soil Erosion Risk: Assess whether the volume and pressure of leakage flow is sufficient to erode surrounding soil, undermine structural foundations, or transport silt into drainage infrastructure.
+
+Ecological Sensitivity: Sites within or adjacent to designated nature areas, wetlands, or PUB catchment protection zones are subject to heightened environmental risk classification and must follow the enhanced reporting requirements in Section 4.2.
+
+---
+
+Section 4.0 — Required Reporting Data and Documentation
+
+Section 4.1 — Standard Leakage Inspection Report
+
+For all identified leakage incidents, the inspection report must include the following minimum information:
+
+1. Leakage source: Identification of the originating component (pipe joint, expansion joint, cracked wall, drainage outlet, waterproof membrane, etc.) with reference to site plans or drawings.
+
+2. Estimated flow severity: Classification per Section 2.2 (Class 1–4) with basis for estimation (visual observation, volumetric measurement, or flow meter reading).
+
+3. Surrounding environmental conditions: Temperature and humidity at time of inspection, recent rainfall history, adjacent land use, proximity to waterways or sensitive receptors, and any unusual operational conditions preceding the incident.
+
+4. Photographic evidence: Minimum two photographs per leakage point — one contextual view showing the leakage in relation to surrounding infrastructure, and one close-up showing the source point. For high-risk scenarios, a video recording is mandatory.
+
+5. Mitigation recommendations: Specific recommended interim control measures (temporary plugging, bunding, pump-out, flow diversion) and long-term remediation actions, with an estimated timeline for each.
+
+6. Downstream impacts: Assessment of whether the leakage has caused or is likely to cause damage to adjacent structures, electrical infrastructure, pedestrian areas, or the environment.
+
+Section 4.2 — Enhanced Reporting for Environmental Incidents
+
+Where leakage has reached or may have reached a public waterway, reservoir, or designated nature area, an Environmental Incident Report must be submitted to the National Environment Agency (NEA) within 24 hours using Form NEA-EI01. A follow-up Incident Closure Report must be submitted within 14 days of completion of containment and remediation.
+
+---
+
+Section 5.0 — Response Timelines and Containment Procedures
+
+Section 5.1 — Standard Response Timeline
+
+Class 1 (Seeping): Monitoring and recording of leakage rate at each inspection. No emergency response required. Remediation to be scheduled within 30 days.
+
+Class 2 (Minor Flow): Site supervisor to be notified within 4 hours. Interim containment measures (channelling, absorbent materials, silt curtains) to be deployed within 8 hours. Full remediation works to be completed within 14 days.
+
+Class 3 (Moderate Flow): Site supervisor and Resident Engineer to be notified within 2 hours. Interim containment measures to be deployed within 4 hours. Pumping or diversion works to be initiated same day. Engineering assessment within 48 hours. Full remediation within 7 days.
+
+Class 4 (Major Flow): Immediate verbal notification to site supervisor and Resident Engineer. High-risk leakage incidents require preliminary mitigation action within 12 hours of identification. Emergency containment to commence within 2 hours. Notification to PUB Emergency Hotline required within 4 hours. EHISO notification required within 24 hours using Form EHISO-LI01.
+
+Section 5.2 — Interim Containment Measures
+
+The following containment measures are approved for immediate deployment by site personnel pending professional engineering involvement:
+
+Physical Barriers: Deploy sandbags, water-inflatable barriers, or temporary bunding to direct leakage flow away from high-risk areas. Barriers must be inspected every 4 hours when in active use and must not be removed without confirmation from the Resident Engineer.
+
+Pump-Out Operations: Temporary submersible pumps may be deployed to remove accumulated water from basement areas, service tunnels, or excavation zones. Discharge from pump-out operations must not enter public drains unless confirmed by water quality testing to be free of contaminants. Turbid or contaminated water must be discharged to approved settlement tanks.
+
+Flow Plugging and Sealing: Hydraulic cement, expanding foam, or polyurethane injection grout may be applied to active leakage points as temporary measures. The application of temporary sealants does not negate the requirement for formal remediation assessment by a Professional Engineer.
+
+Section 5.3 — Escalation to Regulatory Authorities
+
+In addition to the site-level notifications described above, the following circumstances require formal notification to regulatory authorities:
+
+- Any Class 4 leakage incident: PUB Emergency Hotline and EHISO notification required within 4 hours
+- Any leakage incident involving suspected contaminated water: NEA Pollution Control Branch notification required within 24 hours
+- Any leakage incident causing confirmed damage to public infrastructure: LTA or relevant authority notification within 24 hours
+- Any leakage incident resulting in personal injury or near-miss involving members of the public: MOM WSH notification within 24 hours and incident investigation to be initiated immediately
+
+Failure to notify the relevant authorities within the prescribed timeframes is an offence under the applicable legislation and may result in financial penalties of up to SGD 100,000 per offence.
+
+---
+
+Section 6.0 — Monitoring and Post-Incident Verification
+
+Section 6.1 — Post-Containment Monitoring
+
+Following completion of interim containment measures, the affected area must be inspected at the following intervals to confirm containment effectiveness:
+- Every 4 hours for the first 24 hours following containment deployment
+- Daily for the following 7 days
+- Weekly thereafter until permanent remediation is complete
+
+If monitoring reveals that interim containment measures are failing or that leakage rates are increasing, the Resident Engineer must be notified immediately and the response classification elevated.
+
+Section 6.2 — Permanent Remediation Verification
+
+All remediation works must be certified as complete by a licensed contractor and reviewed by a Professional Engineer. A post-remediation inspection must be conducted not less than 14 days after completion of remediation works to verify that no residual leakage is occurring. The inspection findings must be documented in the Leakage Incident Closure Report and retained on the project record for a minimum of 7 years.
+
+Section 6.3 — Recurrence Monitoring
+
+Where a leakage incident at the same location has occurred more than once within a 12-month period, the Resident Engineer must commission a Root Cause Analysis (RCA) investigating the design, construction, or maintenance failures contributing to the recurrence. The RCA report must be submitted to the EHISO within 30 days and must include recommendations for systemic measures to prevent further recurrence.

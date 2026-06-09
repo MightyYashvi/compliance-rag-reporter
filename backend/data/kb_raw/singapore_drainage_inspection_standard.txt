@@ -1,0 +1,168 @@
+Singapore Drainage Inspection Standard (SDIS)
+Version 2025.1
+Issued by the Drainage and Waterways Compliance Authority (DWCA)
+Effective Date: 1 January 2025
+
+---
+
+Section 1.0 — Purpose and Scope
+
+This standard establishes mandatory inspection, documentation, and reporting procedures for public and private drainage systems within Singapore construction zones, infrastructure maintenance corridors, and development sites. It applies to all licensed site engineers, resident technical officers, and appointed drainage inspectors operating under the Building and Construction Authority (BCA) framework.
+
+The standard covers surface drains, subsurface drainage channels, culverts, drainage outlets, retention ponds, and associated hydraulic infrastructure. Compliance with this standard is a condition of site licence renewal and failure to adhere may result in cessation orders, monetary penalties, or suspension of construction permits.
+
+Section 1.1 — Definitions
+
+Drainage Outlet: Any pipe, channel, or aperture through which water or effluent is discharged from a site into public infrastructure or waterways.
+
+Drainage Inspector: A qualified professional holding a valid Drainage Inspection Licence (DIL) issued under the Environmental Engineering Certification Framework (EECF).
+
+Critical Finding: Any observation that poses an immediate risk of structural failure, environmental contamination, or significant drainage capacity reduction.
+
+Inspection Record: A formal document prepared within the prescribed timeframe capturing all findings, measurements, photographs, and recommended actions from a drainage inspection.
+
+---
+
+Section 2.0 — Inspection Schedules and Frequency
+
+Section 2.1 — Routine Drainage Inspection
+
+All drainage systems located adjacent to, or within 50 metres of, active construction areas must be visually inspected at a minimum frequency of once every 30 calendar days. Sites classified as high-risk under the Site Risk Index (SRI) framework must increase inspection frequency to once every 14 calendar days.
+
+Drainage systems near coastal zones, reclamation areas, or heavy rainfall corridors (as defined by the Meteorological Service Singapore rainfall intensity maps) are subject to enhanced inspection protocols and must be assessed following any rainfall event exceeding 70 mm in a 24-hour period.
+
+Section 2.2 — Post-Event Inspections
+
+Following any of the following trigger events, an unscheduled drainage inspection must be conducted within 24 hours:
+- Rainfall intensity exceeding 70 mm per hour as recorded at the nearest weather station
+- Ground subsidence or slope movement of more than 25 mm detected at adjacent monitoring points
+- Any report of flooding, ponding, or abnormal discharge within 100 metres of the drainage system
+- Completion of earthworks or excavation activity within 30 metres of a drainage outlet
+- Significant seismic event or construction vibration episode
+
+Section 2.3 — End-of-Year Structural Assessment
+
+All drainage channels and culverts must undergo a comprehensive structural assessment annually, to be completed no later than 31 October each year. This assessment must include internal inspection where channel dimensions permit, CCTV survey for enclosed culverts wider than 600 mm, and a written structural integrity assessment signed by a Professional Engineer (PE).
+
+---
+
+Section 3.0 — Corrosion and Material Degradation
+
+Section 3.1 — Visual Indicators of Corrosion
+
+Drainage infrastructure is considered to exhibit corrosion when any of the following conditions are observed:
+- Surface rust or oxidation on metallic drainage components covering more than 5 percent of the total surface area
+- Pitting, scaling, or flaking of metal surfaces whether or not accompanied by discolouration
+- Coating or lining failure exposing base material to moisture
+- Greenish or brownish staining on concrete drainage walls attributable to embedded reinforcement corrosion
+- Visible rust streaks, seepage staining, or mineral deposits around joints and outlets
+
+Section 3.2 — Corrosion Reporting and Classification
+
+Visible corrosion, rusting, or material degradation detected near drainage outlets or within drainage channels must be formally documented within 24 hours of discovery. The inspector shall classify the observed corrosion according to the SDIS Severity Matrix (refer Section 5.0) and assign an appropriate corrective action timeline.
+
+Where corrosion is discovered that was not present during the previous scheduled inspection, the inspector must determine whether the deterioration is consistent with the elapsed inspection interval or whether an unreported accelerated degradation event has occurred.
+
+Section 3.3 — Corrosion Near Water Systems
+
+Drainage components located within 10 metres of active water supply infrastructure, or within tidal influence zones, shall receive elevated inspection priority due to the accelerated corrosion rates associated with chloride exposure, moisture cycling, and biological fouling. Such components must be inspected at twice the standard frequency specified in Section 2.1.
+
+---
+
+Section 4.0 — Water Flow Obstruction and Capacity Assessment
+
+Section 4.1 — Obstruction Classification
+
+Blockages, sedimentation, debris accumulation, or structural deformation that reduces effective drainage flow capacity shall be classified as follows:
+
+Minor Obstruction: Flow capacity reduced by less than 10 percent of design capacity. Corrective action required within 30 days.
+
+Moderate Obstruction: Flow capacity reduced by 10–20 percent of design capacity. Corrective action required within 7 days. Site supervisor to be notified in writing.
+
+Critical Obstruction: Blockages or conditions reducing drainage flow by more than 20 percent of design capacity must be classified as critical maintenance findings. Immediate notification of the site manager and DWCA duty officer is required. Works must commence within 24 hours.
+
+Section 4.2 — Measurement of Flow Capacity
+
+Where flow capacity cannot be assessed by visual inspection alone, the drainage inspector shall conduct a flow measurement using calibrated equipment. Measurements must be taken upstream and downstream of the suspected obstruction. A reduction exceeding 15 percent between upstream and downstream flow values shall trigger a Moderate Obstruction classification pending further assessment.
+
+Section 4.3 — Sediment and Debris Management
+
+Sediment accumulation to a depth exceeding 150 mm within any drainage channel must be recorded and scheduled for removal. All debris removal activities must be documented including volumes removed, disposal location, and verification that discharge to adjacent waterways did not occur during the operation.
+
+---
+
+Section 5.0 — Compliance Severity Levels
+
+The SDIS Severity Matrix classifies drainage inspection findings as follows:
+
+Level 1 — Minor
+Cosmetic deterioration, minor surface staining, surface rust with no structural penetration, or sediment accumulation within tolerance thresholds. No immediate structural or environmental risk. Maintenance to be scheduled within 30 days. Formal notification to site manager not required but recommended.
+
+Level 2 — Moderate
+Functional degradation including coating failure, joint separation, flow restriction within 10–20 percent of design capacity, or corrosion with measurable material thinning. Maintenance scheduling required within 7 days. Written notification to site manager and entry in the Site Drainage Maintenance Register mandatory.
+
+Level 3 — Severe
+Structural deterioration with material fragmentation, active joint leakage, flow capacity reduced by more than 20 percent, or corrosion penetrating structural elements. Immediate escalation required. Site manager and Resident Engineer must be notified within 4 hours. Emergency maintenance works to commence within 24 hours. DWCA notification required within 48 hours.
+
+Level 4 — Critical
+Conditions presenting an immediate risk of structural collapse, environmental contamination, or uncontrolled discharge into a public waterway. Site area within 50 metres of the affected infrastructure must be cordoned off. The DWCA Emergency Response Hotline must be called within 2 hours of discovery. All construction activity in the affected zone must cease until a Professional Engineer certifies the drainage system as safe.
+
+---
+
+Section 6.0 — Photographic and Documentation Requirements
+
+Section 6.1 — Mandatory Photographic Evidence
+
+Inspection reports must include photographic documentation for all findings classified as Level 2 or above. Photographs must:
+- Be date and time-stamped by the recording device
+- Include a reference scale (graduated ruler or survey staff) visible in the frame
+- Capture a wide-angle context shot and a close-up detail shot for each finding
+- Be stored in an uncompressed or lossless format
+- Be uploaded to the Site Inspection Management System (SIMS) within 24 hours of the inspection
+
+For Level 3 and Level 4 findings, video recording of the affected area is strongly recommended and may be required at the DWCA's discretion.
+
+Section 6.2 — Inspection Report Contents
+
+Every Drainage Inspection Record must contain the minimum following information:
+- Site licence number and project title
+- Date, time, and duration of inspection
+- Identity and DIL number of the drainage inspector
+- Weather conditions and recent rainfall data
+- Location reference for each finding (grid coordinates or site plan reference)
+- SDIS Severity Level classification for each finding
+- Photographic evidence references
+- Recommended corrective actions with target completion dates
+- Inspector's signature and certification that findings are accurate and complete
+
+Section 6.3 — Retention of Records
+
+All Drainage Inspection Records must be retained on site and accessible to DWCA officers at all times during construction. Records must be retained for a minimum of 7 years following project completion or site decommissioning, whichever is later.
+
+---
+
+Section 7.0 — Escalation and Notification Procedures
+
+Section 7.1 — Internal Escalation
+
+Upon identification of a Level 3 or Level 4 finding, the drainage inspector must initiate the internal escalation sequence:
+1. Verbally notify the immediate site supervisor within 30 minutes of identification
+2. Submit a Preliminary Finding Report (PFR) via the SIMS within 2 hours
+3. Ensure physical barriers and warning signage are placed within 1 hour
+4. Obtain a written acknowledgement from the Resident Engineer within 4 hours
+
+Section 7.2 — Regulatory Escalation
+
+For Level 4 findings, and for repeated Level 3 findings at the same drainage infrastructure within any 90-day period, the site licensee must submit a formal notification to the DWCA within 48 hours using Form DWCA-N01. Failure to notify within the prescribed period constitutes an offence under the Drainage (Construction Sites) Regulations and may result in a financial penalty of up to SGD 50,000 per offence.
+
+Section 7.3 — Emergency Response Protocol
+
+Where a drainage failure poses an immediate risk of flooding or contamination of public waterways, the licensee must contact the DWCA Emergency Response Hotline immediately and implement interim containment measures including temporary bunding, discharge diversion, and deployment of oil-absorbent or silt-barrier materials as appropriate.
+
+---
+
+Section 8.0 — Inspector Qualifications and Responsibilities
+
+Persons conducting drainage inspections under this standard must hold a valid Drainage Inspection Licence (DIL) issued not more than 3 years prior to the inspection date. Inspectors with lapsed licences may not certify Drainage Inspection Records. The site licensee is responsible for verifying the current status of all appointed drainage inspectors before engagement.
+
+The drainage inspector bears personal professional liability for the accuracy of all findings and classifications documented in Inspection Records. Deliberate misrepresentation of findings constitutes a serious professional misconduct offence under the EECF and will be referred to the Professional Engineers Board.
