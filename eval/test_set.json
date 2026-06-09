@@ -1,0 +1,29 @@
+[
+  {
+    "name": "structural_crack_observation",
+    "inputs": {
+      "notes": "Observed hairline crack on column B3, approx 200mm. Structural elements inspected quarterly as required.",
+      "transcript": "",
+      "ocr_text": "Non-conforming items must be logged within 24 hours."
+    },
+    "expected_keywords": ["clause", "review", "assessed"]
+  },
+  {
+    "name": "voice_only_capture",
+    "inputs": {
+      "notes": "",
+      "transcript": "Inspector notes water ingress near the east stairwell. Items logged within 24 hours per procedure.",
+      "ocr_text": ""
+    },
+    "expected_keywords": ["assessed", "review"]
+  },
+  {
+    "name": "photo_ocr_capture",
+    "inputs": {
+      "notes": "",
+      "transcript": "",
+      "ocr_text": "All structural elements shall be inspected quarterly. Non-conforming items must be logged."
+    },
+    "expected_keywords": ["clause", "assessed"]
+  }
+]
