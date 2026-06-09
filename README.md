@@ -80,7 +80,60 @@ cd backend
 pytest
 ```
 
-All 56 tests pass without a real OpenAI API key — the vector store and ingestion tests use a fake embedding model injected via dependency parameters.
+All tests pass without a real OpenAI API key — the vector store, ingestion, and retrieval tests use a fake embedding model injected via dependency parameters.
+
+---
+
+## POST /rag/retrieve — Integration Endpoint for Person B
+
+This is the endpoint Person B's report generation backend calls. Send a field observation as a query; receive ranked regulation chunks with full citation metadata.
+
+**Example curl request**
+
+```bash
+curl -X POST http://localhost:8000/rag/retrieve \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "Corrosion observed near drainage outlet",
+    "top_k": 5,
+    "filters": {
+      "doc_type": "standard",
+      "jurisdiction": "Singapore"
+    }
+  }'
+```
+
+**Example response**
+
+```json
+{
+  "query": "Corrosion observed near drainage outlet",
+  "chunks": [
+    {
+      "chunk_id": "a3f1b2c4d5e6f7a8",
+      "text": "Visible corrosion, rusting, or material degradation near drainage outlets must be documented within 24 hours of discovery.",
+      "score": 0.91,
+      "source": {
+        "document_id": "7e4f1a2b3c4d5e6f",
+        "title": "Singapore Drainage Inspection Standard (SDIS)",
+        "file_name": "singapore_drainage_inspection_standard.txt",
+        "page": 1,
+        "section": "2.2",
+        "doc_type": "standard",
+        "jurisdiction": "Singapore",
+        "standard_name": "SDIS"
+      }
+    }
+  ]
+}
+```
+
+**Error responses**
+
+| Code | Condition |
+|------|-----------|
+| `422` | Query is blank, `top_k` is 0 or > 20 |
+| `503` | Vector store empty (run ingestion first) or `OPENAI_API_KEY` not set |
 
 ---
 
