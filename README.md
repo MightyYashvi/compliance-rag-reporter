@@ -43,12 +43,44 @@ backend/
 ```bash
 cd backend
 cp .env.example .env
-# fill in OPENAI_API_KEY
+# fill in OPENAI_API_KEY and CHROMA_PERSIST_DIR
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
 Health check: `GET http://localhost:8000/health` → `{"status": "ok"}`
+
+### Ingesting the knowledge base
+
+Run once before starting the server to embed all KB documents into ChromaDB:
+
+```bash
+cd backend
+python scripts/ingest.py
+
+# Optional flags:
+# --reset            clear existing collection first
+# --source-dir PATH  override kb_raw location
+# --chunk-size N     characters per chunk (default: 1000)
+# --chunk-overlap N  overlap between chunks (default: 200)
+```
+
+### How embeddings and semantic search work
+
+**Embeddings** convert regulation text into dense numerical vectors. The model (`text-embedding-3-small`) is trained so that texts with similar meaning produce nearby vectors — even when they share no exact words. A field engineer writing *"rust forming near a pipe joint"* retrieves chunks about *"corrosion near drainage outlets"* because both map to similar regions in the embedding space.
+
+**ChromaDB** stores each chunk as a `(vector, text, metadata)` triple on disk. At query time it computes cosine similarity between the query vector and all stored chunk vectors, returning the top-K closest matches. This is fundamentally different from keyword search, which requires exact term overlap.
+
+**Why this matters for citations:** every chunk stored in ChromaDB carries the full provenance metadata attached by the loader and chunker — document title, standard name, section number, jurisdiction. The retrieval endpoint returns this metadata alongside the chunk text so the report generator can produce source-grounded citations without any secondary lookup.
+
+### Running tests
+
+```bash
+cd backend
+pytest
+```
+
+All 56 tests pass without a real OpenAI API key — the vector store and ingestion tests use a fake embedding model injected via dependency parameters.
 
 ---
 
