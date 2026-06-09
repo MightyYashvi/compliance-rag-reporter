@@ -73,14 +73,24 @@ python scripts/ingest.py
 
 **Why this matters for citations:** every chunk stored in ChromaDB carries the full provenance metadata attached by the loader and chunker — document title, standard name, section number, jurisdiction. The retrieval endpoint returns this metadata alongside the chunk text so the report generator can produce source-grounded citations without any secondary lookup.
 
-### Running tests
+### End-to-end smoke test (requires OPENAI_API_KEY)
+
+Runs ingestion + live retrieval queries against the real OpenAI embedding model:
+
+```bash
+cd backend
+python scripts/smoke_test.py           # ingest (if not done) then query
+python scripts/smoke_test.py --reset   # wipe collection and re-ingest first
+```
+
+### Running unit tests (no API key needed)
 
 ```bash
 cd backend
 pytest
 ```
 
-All tests pass without a real OpenAI API key — the vector store, ingestion, and retrieval tests use a fake embedding model injected via dependency parameters.
+All 93 tests pass without a real OpenAI API key — vector store, ingestion, and retrieval tests use a fake embedding model injected via dependency parameters.
 
 ---
 
