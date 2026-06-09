@@ -6,6 +6,7 @@ Run from backend/:
     python scripts/ingest.py
     python scripts/ingest.py --reset
     python scripts/ingest.py --source-dir data/kb_raw --chunk-size 800 --chunk-overlap 150
+    python scripts/ingest.py --mock-embeddings --reset   # no API key needed
 """
 from __future__ import annotations
 
@@ -108,6 +109,14 @@ def _parse_args() -> argparse.Namespace:
         metavar="N",
         help="Overlap characters between consecutive chunks (default: 200).",
     )
+    parser.add_argument(
+        "--mock-embeddings",
+        action="store_true",
+        help=(
+            "Use deterministic fake embeddings (no OPENAI_API_KEY needed). "
+            "Writes to data/chroma_db_mock — never touches the real collection."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -137,11 +146,22 @@ def main() -> None:
     logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
     args = _parse_args()
 
+    embedding_model = None
+    persist_dir = None
+    if args.mock_embeddings:
+        from scripts.dev_utils import MockEmbeddings, MOCK_PERSIST_DIR
+        embedding_model = MockEmbeddings()
+        persist_dir = MOCK_PERSIST_DIR
+        print("[mock-embeddings] Using fake embeddings — no API key required.")
+        print(f"[mock-embeddings] Persist dir: {MOCK_PERSIST_DIR}\n")
+
     result = run_ingestion(
         source_dir=args.source_dir,
         chunk_size=args.chunk_size,
         chunk_overlap=args.chunk_overlap,
         reset=args.reset,
+        embedding_model=embedding_model,
+        persist_dir=persist_dir,
     )
 
     _print_summary(result)

@@ -5,6 +5,7 @@ __pycache__/
 .pytest_cache/
 data/chroma_db/*
 !data/chroma_db/.gitkeep
+data/chroma_db_mock/
 data/kb_raw/*
 !data/kb_raw/.gitkeep
 !data/kb_raw/*.txt

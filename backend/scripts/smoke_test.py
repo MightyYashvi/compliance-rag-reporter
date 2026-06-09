@@ -9,7 +9,8 @@ can be verified in one command.
 
 Usage (from backend/):
     python scripts/smoke_test.py
-    python scripts/smoke_test.py --reset        # re-ingest from scratch
+    python scripts/smoke_test.py --reset              # re-ingest from scratch
+    python scripts/smoke_test.py --mock-embeddings --reset   # no API key needed
 """
 from __future__ import annotations
 
@@ -57,14 +58,27 @@ def _hr(char: str = "─", width: int = 72) -> str:
     return char * width
 
 
-def run_smoke_test(reset: bool = False) -> None:
+def run_smoke_test(reset: bool = False, mock_embeddings: bool = False) -> None:
+    embedding_model = None
+    persist_dir = None
+    if mock_embeddings:
+        from scripts.dev_utils import MockEmbeddings, MOCK_PERSIST_DIR
+        embedding_model = MockEmbeddings()
+        persist_dir = MOCK_PERSIST_DIR
+
     print(_hr("═"))
     print("  Compliance RAG Reporter — End-to-End Smoke Test")
+    if mock_embeddings:
+        print("  [mock-embeddings mode — no API key required]")
     print(_hr("═"))
 
     # ── Step 1: Ingest ──────────────────────────────────────────────────────
     print("\n[1/3] Running ingestion pipeline...\n")
-    result = run_ingestion(reset=reset)
+    result = run_ingestion(
+        reset=reset,
+        embedding_model=embedding_model,
+        persist_dir=persist_dir,
+    )
     if result.get("error"):
         print(f"  ERROR: {result['error']}")
         sys.exit(1)
@@ -76,7 +90,7 @@ def run_smoke_test(reset: bool = False) -> None:
 
     # ── Step 2: Verify collection ───────────────────────────────────────────
     print("\n[2/3] Verifying vector store...\n")
-    vs = get_vector_store()
+    vs = get_vector_store(embedding_model=embedding_model, persist_dir=persist_dir)
     stats = vector_store_stats(vs)
     print(f"  Collection : {stats['collection_name']}")
     print(f"  Total docs : {stats['document_count']}")
@@ -128,8 +142,16 @@ def run_smoke_test(reset: bool = False) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run RAG pipeline smoke test.")
     parser.add_argument("--reset", action="store_true", help="Clear and re-ingest collection.")
+    parser.add_argument(
+        "--mock-embeddings",
+        action="store_true",
+        help=(
+            "Use deterministic fake embeddings — no OPENAI_API_KEY needed. "
+            "Reads/writes data/chroma_db_mock, never the real collection."
+        ),
+    )
     args = parser.parse_args()
-    run_smoke_test(reset=args.reset)
+    run_smoke_test(reset=args.reset, mock_embeddings=args.mock_embeddings)
 
 
 if __name__ == "__main__":

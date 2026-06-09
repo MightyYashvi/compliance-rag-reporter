@@ -38,13 +38,35 @@ EMBEDDING_MODEL = "text-embedding-3-small"
 # Embedding model
 # ---------------------------------------------------------------------------
 
+class MockEmbeddings:
+    """
+    Deterministic fake embedding model for local development and testing.
+
+    Active only when USE_MOCK_EMBEDDINGS=1 is set in the environment.
+    Never used in production — the env var is not set in production deployments.
+    """
+
+    DIM = 8
+
+    def embed_documents(self, texts: list[str]) -> list[list[float]]:
+        return [[float(ord(t[0]) if t else 0) / 255] * self.DIM for t in texts]
+
+    def embed_query(self, text: str) -> list[float]:
+        return [float(ord(text[0]) if text else 0) / 255] * self.DIM
+
+
 def get_embedding_model():
     """
-    Return an initialised OpenAI embedding model.
+    Return an embedding model.
 
-    Raises EnvironmentError with a clear message if OPENAI_API_KEY is absent
-    so the engineer sees a fix hint rather than a cryptic auth error later.
+    If USE_MOCK_EMBEDDINGS=1 is set, returns MockEmbeddings (no API key needed).
+    Otherwise returns the real OpenAIEmbeddings and raises EnvironmentError if
+    OPENAI_API_KEY is absent.
     """
+    if os.getenv("USE_MOCK_EMBEDDINGS") == "1":
+        logger.info("USE_MOCK_EMBEDDINGS=1 — using MockEmbeddings (no API call)")
+        return MockEmbeddings()
+
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise EnvironmentError(

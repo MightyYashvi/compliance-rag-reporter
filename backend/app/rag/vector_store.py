@@ -24,6 +24,7 @@ How semantic similarity search works:
 from __future__ import annotations
 
 import logging
+import os
 from pathlib import Path
 from typing import Any
 
@@ -34,8 +35,11 @@ logger = logging.getLogger(__name__)
 
 COLLECTION_NAME = "regulatory_kb"
 
-# Default persist path — relative to this file's location inside backend/app/rag/
-PERSIST_DIR = Path(__file__).resolve().parents[2] / "data" / "chroma_db"
+# Default persist path. Overridable via CHROMA_PERSIST_DIR env var so that
+# local dev / mock-embedding mode can point at a separate collection without
+# touching the real data/chroma_db store.
+_env_persist = os.environ.get("CHROMA_PERSIST_DIR")
+PERSIST_DIR = Path(_env_persist) if _env_persist else Path(__file__).resolve().parents[2] / "data" / "chroma_db"
 
 
 # ---------------------------------------------------------------------------
