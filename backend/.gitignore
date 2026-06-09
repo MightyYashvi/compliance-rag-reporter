@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+data/kb_raw/*
+!data/kb_raw/.gitkeep
