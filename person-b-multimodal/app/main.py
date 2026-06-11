@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings, ensure_dirs
 from app.models.schemas import HealthResponse
-from app.routers import capture, reports
+from app.routers import capture, reports, generate
 from app.services.rag_client import check_rag_health
 
 logging.basicConfig(
@@ -61,6 +61,7 @@ app.add_middleware(
 # Routers
 app.include_router(capture.router)
 app.include_router(reports.router)
+app.include_router(generate.router)  # frontend contract: POST /generate
 
 
 @app.get("/health", response_model=HealthResponse)

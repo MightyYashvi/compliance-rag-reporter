@@ -1,0 +1,28 @@
+# Render blueprint for the Person B FastAPI backend.
+# In Render: New → Blueprint → connect this repo → it reads this file.
+# After deploy, copy the service URL into the Streamlit app's FIELD_REPORT_API secret.
+services:
+  - type: web
+    name: compliance-rag-backend
+    runtime: docker
+    rootDir: person-b-multimodal
+    dockerfilePath: ./Dockerfile.render
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      # RAG runs in mock mode until Person A's service is wired in.
+      - key: RAG_MOCK
+        value: "true"
+      - key: WHISPER_MODE
+        value: api
+      - key: OCR_MODE
+        value: tesseract
+      - key: LLM_PROVIDER
+        value: claude
+      - key: CLAUDE_MODEL
+        value: claude-sonnet-4-20250514
+      # Set this in the Render dashboard to enable real LLM generation.
+      # Without it, /generate returns a deterministic RAG-grounded report.
+      - key: ANTHROPIC_API_KEY
+        sync: false
