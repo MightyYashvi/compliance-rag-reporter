@@ -14,7 +14,11 @@ from typing import Any
 
 import requests
 
-API_URL = os.environ.get("FIELD_REPORT_API", "").rstrip("/")
+# Defaults to the deployed Hugging Face Space backend; override with the
+# FIELD_REPORT_API env var / Streamlit secret to point elsewhere (or set it
+# empty to force the local mock).
+_DEFAULT_API = "https://mightyashvi-compliance-rag-backend.hf.space"
+API_URL = os.environ.get("FIELD_REPORT_API", _DEFAULT_API).rstrip("/")
 
 
 def _mock_generate(inputs: dict[str, str]) -> dict[str, Any]:
